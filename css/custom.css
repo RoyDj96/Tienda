@@ -1,3 +1,4 @@
+
 html {
     font-size: 62.5%;
 }
@@ -171,12 +172,151 @@ ul {
 
 
 .footer {
-    margin-top: 40px;
-    border-top:1px solid #aaa;;
-    padding-top: 40px;   
+    background-color: rgba(0, 0, 0, 0.918);
+    border-style:groove;
+    border-radius: 50px;
+    margin-top: 3px;
+    border-top:1px solid #aaa;
+    padding: 2px;
+ 
 }
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
 }
+
+/*mis estilos*/
+
+span{
+    color: green;
+}
+
+.sub{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 4px 4px green;
+}
+
+
+img{
+    width: 30px;
+}
+
+.redes{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 8px;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+}
+
+div .desk {
+    border-bottom: 2px white solid;
+    width: 60%;
+    color: white;
+    padding: 10px 0;
+    text-shadow: 6px 4px 2px rgb(7, 23, 160);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.categorie{
+    border-bottom: 2px white solid;
+    width: 99%;
+    color: white;
+    padding: 10px 0;
+    text-shadow: 6px 4px 2px rgb(7, 23, 160);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.contact{
+    border-bottom: 2px white solid;
+    width: 50%;
+    color: white;
+    padding: 10px 0;
+    text-shadow: 6px 4px 2px rgb(7, 23, 160);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.new{
+    border-bottom: 2px white solid;
+    width: 68%;
+    color: white;
+    padding: 10px 0;
+    text-shadow: 6px 4px 2px rgb(0, 24, 241);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+
+a {
+    color: rgb(212, 174, 174);
+    text-decoration: none;
+    padding: 5px 0;
+    border-width: 2px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;                
+    
+}
+
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+
+button{
+    background-color: white;
+    font-size: 16px;
+}
+
+
+button:hover{
+    background-color: rgb(221, 187, 187);
+}
+
+
+.derechos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 5px 5px;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    width: 800px;
+    border-top: 1px solid #d3a8a8; 
+}
+
+
+  
+
+
